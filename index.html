@@ -31,15 +31,71 @@
     -->
   </head>
   <body>
-    <header>Crie Novos Hábitos</header>
-    <p id="fraseHeader">Isso pode salvar sua vida</p>
-    <div>
-      <button id="botao-sorteio" type="button" class="btn btn-outline-dark">
-        Sortear
-      </button>
+    <header>
+      <div class="container-fluid">
+        UM DEGRAU<br />
+        POR <em>dia</em>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <h1>Seja bem-vinda à mudança que você busca</h1>
+      <p>
+        É sua hora de começar a transformas sua mente, se conhecer, sair do
+        piloto automático e encontrar um propósito de vida.
+      </p>
+      <p>
+        A idéia desse projeto é te tirar do automático e te impulsionar a
+        conhecer e recomeçar hábitos que você deseja ter para começar a
+        <strong>VIVER</strong> ao invés de <em>SOBREVIVER</em>.
+      </p>
     </div>
-    <h3>Seu micro-hábito objetivo de hoje é:</h3>
-    <p id="resultado-sorteio"></p>
+    <hr />
+    <div class="container-fluid">
+      <p>
+        "Um degrau por dia" é a forma como deixo a vida mais leve, focando em um
+        dia de cada vez sem olhar a escada toda. Te condido a começar esse
+        projeto gratuito de <em>30 dias</em> comigo.
+      </p>
+    </div>
+    <div class="container" id="verde">
+      <div class="child">
+        <p>
+          TODOS os dias você vai sortear uma ação e cumpri-la. Lembre-se que a
+          idéia é recomeçar de forma leve a mudança que você tanto busca.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <p>Essas ações serão baseadas em 4 categorias:<br /></p>
+    </div>
+    <div class="container" id="categorias">
+      <div class="child">SAÚDE FÍSICA</div>
+      <div class="child">SAÚDE MENTAL</div>
+      <div class="child">AUTO CUIDADO</div>
+      <div class="child">INTELECTO</div>
+    </div>
+    <hr />
+    <div class="container" id="categorias">
+      <div class="child" id="item-categorias">
+        Sua ação de hoje é:<br />
+        <!-- resultado do sorteio de hábitos aparece aqui -->
+        <em><p id="resultado-sorteio"></p></em>
+      </div>
+      <div class="child" id="'item-categorias">
+        <button id="botao-sorteio" type="button" class="btn btn-outline-dark">
+          Sortear
+        </button>
+      </div>
+      <div class="child" id="item-categorias">
+        UM DEGRAU<br />
+        POR <em>dia</em>
+      </div>
+    </div>
+    <hr />
+    <div>
+      Vamos juntas buscar saúde física e mental, isso é o que nos dá base para
+      VIVER, realizar nossos sonhos e curtir quem amamos.
+    </div>
     <!-- Bootstrap JS -->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
