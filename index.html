@@ -31,6 +31,32 @@
     -->
   </head>
   <body>
+    <!-- Cabeçalho de navegação -->
+    <div class="pos-f-t">
+      <!-- Elemento colapsável, menu oculto -->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Conteúdo expandido</h5>
+          <span class="text-muted"
+            >Expansível, atráves da marca no navbar.</span
+          >
+        </div>
+      </div>
+      <nav class="navbar navbar-dark" style="background-color: #686332">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
     <header>
       <div class="container-fluid">
         UM DEGRAU<br />
@@ -53,8 +79,8 @@
     <div class="container-fluid">
       <p>
         "Um degrau por dia" é a forma como deixo a vida mais leve, focando em um
-        dia de cada vez sem olhar a escada toda. Te condido a começar esse
-        projeto gratuito de <em>30 dias</em> comigo.
+        dia de cada vez sem olhar a escada toda.<br />
+        Te convido a começar esse projeto gratuito de <em>30 dias</em> comigo.
       </p>
     </div>
     <div class="container" id="verde">
