@@ -31,40 +31,16 @@
     -->
   </head>
   <body>
-    <!-- Cabeçalho de navegação -->
-    <div class="pos-f-t">
-      <!-- Elemento colapsável, menu oculto -->
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Conteúdo expandido</h5>
-          <span class="text-muted"
-            >Expansível, atráves da marca no navbar.</span
-          >
-        </div>
-      </div>
-      <nav class="navbar navbar-dark" style="background-color: #686332">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Alterna navegação"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+    <!-- incluir Cabeçalho de navegação -->
 
+    <a name="menu-inicio"></a>
     <header>
       <div class="container-fluid">
-        UM DEGRAU<br />
-        POR <em>dia</em>
+        <img id="img-grande" src="img/um-degrau-por-dia.png" alt="" />
       </div>
     </header>
     <div class="container-fluid">
-      <h1>Seja bem-vinda à mudança que você busca</h1>
+      <h1>Seja bem-vinda <em>à mudança que você busca</em></h1>
       <p>
         É sua hora de começar a transformas sua mente, se conhecer, sair do
         piloto automático e encontrar um propósito de vida.
@@ -76,6 +52,7 @@
       </p>
     </div>
     <hr />
+    <a name="um-degrau-por-dia"></a>
     <div class="container-fluid">
       <p>
         "Um degrau por dia" é a forma como deixo a vida mais leve, focando em um
@@ -91,7 +68,7 @@
         </p>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="titulo-categorias">
       <p>Essas ações serão baseadas em 4 categorias:<br /></p>
     </div>
     <div class="container" id="categorias">
@@ -107,14 +84,14 @@
         <!-- resultado do sorteio de hábitos aparece aqui -->
         <em><p id="resultado-sorteio"></p></em>
       </div>
+      <a name="sortear"></a>
       <div class="child" id="'item-categorias">
         <button id="botao-sorteio" type="button" class="btn btn-outline-dark">
           Sortear
         </button>
       </div>
       <div class="child" id="item-categorias">
-        UM DEGRAU<br />
-        POR <em>dia</em>
+        <img id="img-pequena" src="img/um-degrau-por-dia.png" alt="" />
       </div>
     </div>
     <hr />
@@ -131,5 +108,5 @@
   </body>
   <!-- JavaScript -->
   <script src="JS/script.js"></script>
-  <footer>PortugaDev</footer>
+  <footer><a href="https://github.com/PortugalAndre">PortugaDev</a></footer>
 </html>

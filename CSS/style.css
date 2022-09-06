@@ -13,6 +13,9 @@ header {
   color: #686332;
 }
 
+#img-grande {
+}
+
 h1 {
   color: #686332;
 }
@@ -35,11 +38,16 @@ div {
   height: 50px;
 }
 
+#titulo-categorias {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 #categorias {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
@@ -49,26 +57,25 @@ div {
   margin-right: 50px;
 }
 
-#botao-sorteio {
-  width: 100px;
-  border-radius: 20px;
-  background-color: #686332;
-  color: #fff4e3;
-  border-color: #686332;
-}
-
-h3 {
-  margin-bottom: 0px;
-  margin-top: 20px;
-  text-align: center;
-  font-family: sans-serif;
-}
-
 #resultado-sorteio {
   margin-top: 5px;
   text-align: center;
   font-family: sans-serif;
   color: #686332;
+}
+
+#botao-sorteio {
+  width: 100px;
+  border-radius: 10px;
+  background-color: #686332;
+  color: #fff4e3;
+  border-color: #f5ad7b;
+  border-width: 2px;
+}
+
+#img-pequena {
+  height: 80px;
+  width: 150px;
 }
 
 footer {
