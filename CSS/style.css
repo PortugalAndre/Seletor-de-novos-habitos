@@ -13,9 +13,6 @@ header {
   color: #686332;
 }
 
-#img-grande {
-}
-
 h1 {
   color: #686332;
 }
@@ -28,13 +25,14 @@ div {
 }
 
 #verde {
+  font-weight: bolder;
   display: flex;
   justify-content: center;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: #686332;
-  color: #fff4e3;
-  border-radius: 30px;
+  color: #686332;
+  border-color: #f5ad7b;
+  border-width: 2px;
   height: 50px;
 }
 
