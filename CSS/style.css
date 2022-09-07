@@ -29,7 +29,7 @@ div {
   display: flex;
   justify-content: center;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #686332;
   border-color: #f5ad7b;
   border-width: 2px;
@@ -47,6 +47,7 @@ div {
   flex-direction: row;
   margin-top: 10px;
   margin-bottom: 50px;
+  width: 800px;
 }
 
 #item-categorias {
@@ -79,7 +80,7 @@ div {
 footer {
   font-family: JetBrains Mono;
   font-size: x-small;
-  margin-top: 200px;
+  margin-top: 50px;
   padding: auto;
   text-align: end;
 }
