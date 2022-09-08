@@ -31,68 +31,88 @@
     -->
   </head>
   <body>
-    <!-- incluir Cabeçalho de navegação -->
-
-    <a name="menu-inicio"></a>
     <header>
-      <div class="container-fluid">
-        <img id="img-grande" src="img/um-degrau-por-dia.png" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img id="img-grande" src="img/um-degrau-por-dia.png" alt="" />
+          </div>
+        </div>
       </div>
     </header>
-    <div class="container-fluid">
-      <h1>Seja bem-vinda <em>à mudança que você busca</em></h1>
-      <p>
-        É sua hora de começar a transformar sua mente, se conhecer, sair do
-        piloto automático e encontrar um propósito de vida.
-      </p>
-      <p>
-        A idéia desse projeto é te tirar do automático e te impulsionar a
-        conhecer e recomeçar hábitos que você deseja ter para
-        <strong>VIVER</strong> ao invés de <em>SOBREVIVER</em>.
-      </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Seja bem-vinda <em>à mudança que você busca</em></h1>
+          <p>
+            É sua hora de começar a transformar sua mente, se conhecer, sair do
+            piloto automático e encontrar um propósito de vida.
+          </p>
+          <p>
+            A idéia desse projeto é te tirar do automático e te impulsionar a
+            conhecer e recomeçar hábitos que você deseja ter para
+            <strong>VIVER</strong> ao invés de <em>SOBREVIVER</em>.
+          </p>
+        </div>
+      </div>
     </div>
     <hr />
-    <a name="um-degrau-por-dia"></a>
-    <div class="container-fluid">
-      <p>
-        "Um degrau por dia" é a forma como deixo a vida mais leve, focando em um
-        dia de cada vez sem olhar a escada toda.<br />
-        Te convido a começar esse projeto gratuito de <em>30 dias</em> comigo.
-      </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            "Um degrau por dia" é a forma como deixo a vida mais leve, focando
+            em um dia de cada vez sem olhar a escada toda.<br />
+            Te convido a começar esse projeto gratuito de
+            <em>30 dias</em> comigo.
+          </p>
+        </div>
+      </div>
     </div>
+
     <div class="container" id="verde">
-      <div class="child">
-        <p>
-          TODOS os dias você vai sortear uma ação e cumpri-la.<br />
-          Lembre-se que a idéia é recomeçar de forma leve a mudança que você
-          tanto busca.
-        </p>
+      <div class="row">
+        <div class="col-md-12">
+          <h4>
+            TODOS os dias você vai sortear uma ação e cumpri-la.<br />
+            Lembre-se que a idéia é recomeçar de forma leve a mudança que você
+            tanto busca.
+          </h4>
+        </div>
       </div>
     </div>
     <div class="container" id="titulo-categorias">
-      <p>Estas ações serão baseadas em 4 categorias:<br /></p>
+      <div class="row">
+        <div class="col-md-12">
+          <h5>Estas ações serão baseadas em 4 categorias:<br /></h5>
+        </div>
+      </div>
     </div>
     <div class="container" id="categorias">
-      <div class="child" id="item-categorias">SAÚDE FÍSICA</div>
-      <div class="child" id="item-categorias">SAÚDE MENTAL</div>
-      <div class="child" id="item-categorias">AUTO CUIDADO</div>
-      <div class="child" id="item-categorias">INTELECTO</div>
+      <div class="row">
+        <div class="col-md-3 item-categorias">SAÚDE FÍSICA</div>
+        <div class="col-md-3 item-categorias">SAÚDE MENTAL</div>
+        <div class="col-md-3 item-categorias">AUTO CUIDADO</div>
+        <div class="col-md-3 item-categorias">INTELECTO</div>
+      </div>
     </div>
     <hr />
-    <div class="container" id="categorias">
-      <div class="child" id="item-categorias">
-        Sua ação de hoje é:<br />
-        <!-- resultado do sorteio de hábitos aparece aqui -->
-        <em><p id="resultado-sorteio"></p></em>
-      </div>
-      <a name="sortear"></a>
-      <div class="child" id="'item-categorias">
-        <button id="botao-sorteio" type="button" class="btn btn-outline-dark">
-          Sortear
-        </button>
-      </div>
-      <div class="child" id="item-categorias">
-        <img id="img-pequena" src="img/um-degrau-por-dia.png" alt="" />
+    <div class="container" id="acaoDeHoje">
+      <div class="row">
+        <div class="col-md-4">
+          Sua ação de hoje é:<br /><!-- resultado do sorteio de hábitos aparece aqui -->
+          <em><p id="resultado-sorteio"></p></em>
+        </div>
+        <div class="col-md-4">
+          <button id="botao-sorteio" type="button" class="btn btn-outline-dark">
+            Sortear
+          </button>
+        </div>
+        <div class="col-md-4">
+          <img id="img-pequena" src="img/um-degrau-por-dia.png" alt="" />
+        </div>
       </div>
     </div>
     <hr />
