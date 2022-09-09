@@ -12,16 +12,45 @@ h1 {
   color: #686332;
 }
 
+#img-grande {
+  margin-top: 30px;
+  width: 400px;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url('../assets/fonts/cocogoose/cocogoose\ pro\ ultralight-trial.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'autography';
+  src: url('../assets/fonts/autography/autography.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#cocogoose {
+  font-family: 'cocogoose', sans-serif;
+  font-weight: normal;
+  letter-spacing: 10px;
+}
+#autography {
+  font-family: 'autography', sans-serif;
+  font-size: 70px;
+  letter-spacing: 1px;
+}
+
 #p1 {
   margin-top: 30px;
   font-family: 'Montserrat';
-  font-size: larger;
+  font-size: 22px;
   color: #686332;
 }
 #p2 {
   margin-top: 10px;
   font-family: 'Montserrat';
-  font-size: larger;
+  font-size: 22px;
   color: #686332;
 }
 #p3 {
@@ -34,13 +63,14 @@ h1 {
 #p4 {
   font-family: 'Montserrat';
   margin-top: 30px;
-  font-size: larger;
+  font-size: 22px;
   color: #686332;
 }
 #p5 {
   font-family: 'Montserrat';
   margin-top: 30px;
   color: #f5ad7b;
+  letter-spacing: 2px;
 }
 
 strong {
@@ -86,12 +116,12 @@ div {
   font-family: 'Montserrat';
   margin-top: 5px;
   text-align: center;
-  font-family: sans-serif;
-  color: #686332;
+  color: #f5ad7b;
 }
 
 #acaoDeHoje {
   font-family: 'Montserrat';
+  font-size: larger;
   color: #686332;
 }
 
@@ -102,6 +132,9 @@ div {
   color: #fff4e3;
   border-color: #f5ad7b;
   border-width: 2px;
+  margin-top: 20px;
+  font-family: 'Montserrat';
+  font-size: large;
 }
 
 #img-pequena {
