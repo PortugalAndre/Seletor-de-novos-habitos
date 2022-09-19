@@ -37,31 +37,37 @@
   <body>
 
 <!--Scrollspy NAVBAR-->
-    <nav id="navbar" class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="#fat">@fat</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#mdo">@mdo</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
-          aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#um">um</a>
-            <a class="dropdown-item" href="#dois">dois</a>
-            <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#tres">tres</a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-<div data-spy="scroll" data-target="#navbar" data-offset="0">
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <nav id="navbar" class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Início</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#fat">Um degrau por dia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo">Sorteador de hábitos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
+            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#um">Instagram e <br>Spotify</a>
+              <a class="dropdown-item" href="#dois">Quem sou eu</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#tres">tres</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+    
 <!--PÁGINA UM DEGRAU POR DIA-->
-
+<div data-spy="scroll" data-target="#navbar" data-offset="0"></div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -183,6 +189,7 @@
         no Spotify
       </p>
     </div>
+    <hr />
 <!--PÁGINA QUEM SOU EU-->
     <div class="container">
       <div class="row">
