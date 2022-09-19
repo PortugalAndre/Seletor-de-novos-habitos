@@ -19,13 +19,13 @@ h1 {
 
 @font-face {
   font-family: 'cocogoose';
-  src: url('../assets/fonts/cocogoose/cocogoose\ pro\ ultralight-trial.ttf');
+  src: url('../fonts/cocogoose/cocogoose\ pro\ ultralight-trial.ttf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'autography';
-  src: url('../assets/fonts/autography/autography.otf');
+  src: url('../fonts/autography/autography.otf');
   font-weight: normal;
   font-style: normal;
 }
