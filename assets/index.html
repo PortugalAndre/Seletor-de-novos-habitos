@@ -35,21 +35,48 @@
     -->
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <img id="img-grande" src="./Img/um-degrau-por-dia.png" alt="" />
+
+<!--Scrollspy NAVBAR-->
+    <nav id="navbar" class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#fat">@fat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mdo">@mdo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
+          aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#um">um</a>
+            <a class="dropdown-item" href="#dois">dois</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#tres">tres</a>
           </div>
+        </li>
+      </ul>
+    </nav>
+<div data-spy="scroll" data-target="#navbar" data-offset="0">
+
+<!--PÁGINA UM DEGRAU POR DIA-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img id="img-grande" src="./Img/um-degrau-por-dia.png" alt="" />
         </div>
       </div>
-    </header>
+    </div>
+
 
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1>
-            <span id="cocogoose">SEJA BEM-VINDA</span
+            <!--@FAT NAVBAR-->
+            <span id="fat" id="cocogoose">SEJA BEM-VINDA</span
             ><em><span id="autography"> à mudança que você busca</span></em>
           </h1>
           <p id="p1">
@@ -70,7 +97,8 @@
       <div class="row">
         <div class="col-md-12">
           <p id="p2">
-            <strong><em>"Um degrau por dia"</em></strong> é a forma como deixo a
+            <!--@MDO NAVBAR-->
+            <strong id="mdo"><em>"Um degrau por dia"</em></strong> é a forma como deixo a
             vida mais leve, focando em um dia <br />de cada vez sem olhar a
             escada toda. Te convido a começar esse projeto comigo.
           </p>
@@ -155,6 +183,36 @@
         no Spotify
       </p>
     </div>
+<!--PÁGINA QUEM SOU EU-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>
+            <!--DROPDOWN 1 NAVBAR-->
+            <span id="um" id="cocogoose">SEJA BEM-VINDA </span
+            ><em><span id="autography">sou a Lary Portugal</span></em>
+          </h1>
+          <p id="p1">
+            Costumo dizer que bati a bunda no fundo do poço,
+            cansei de sobreviver e de lidar com tudo o que a obesidade me trouxe, 
+            cansei de começar e parar no caminho por me obrigar a seguir metas irreais e
+            impossíveis de levar no dia-a-dia, cansei e cansei.
+            </p>
+            <p id="p1">
+              <span id="dois" >
+            Em agosto de 2021 resolvi<em>recomeçar</em> focando apenas no degrau diário e esquecer
+            a escada toda que havia pela frente para alcançar o que tanto buscava: VIVER,
+              e foi assim, olhando a vida de forma mais leve e fazendo o básico bem feito que 
+              comecei a compartilhar no instagram minha jornada.
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+</div>
+
     <!-- JavaScript (Opcional) -->
     <script src="./JS/script.js"></script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
