@@ -2,6 +2,9 @@ body {
   background-color: #fff4e3;
   position: relative;
 }
+#container-navbar {
+  margin-bottom: 50px;
+}
 nav {
 }
 header {

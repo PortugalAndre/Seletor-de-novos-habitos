@@ -37,18 +37,17 @@
   <body>
 
 <!--Scrollspy NAVBAR-->
-
-<div class="container">
+<div class="container" id="container-navbar">
   <div class="row">
     <div class="col">
       <nav id="navbar" class="navbar navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Início</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#fat">Um degrau por dia</a>
+            <a class="nav-link" href="#fat">SEJA BEM-VINDA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#mdo">Sorteador de hábitos</a>
+            <a class="nav-link" href="#mdo">Sorter hábito</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
@@ -67,11 +66,16 @@
 </div>
     
 <!--PÁGINA UM DEGRAU POR DIA-->
-<div data-spy="scroll" data-target="#navbar" data-offset="0"></div>
-    <div class="container">
+
+<div data-spy="scroll" data-target="#navbar" data-offset="0">
+
+    <div class="container-fluid" id="fat">
       <div class="row">
-        <div class="col-md-12">
-          <img id="img-grande" src="./Img/um-degrau-por-dia.png" alt="" />
+        <div class="col">
+          <img id="img-grande" src="./Img/um-degrau-por-dia-p.png" alt="" />
+          <picture>
+            <source media="(max-width: 1000px )" srcset="" type="image/">
+          </picture>
         </div>
       </div>
     </div>
@@ -79,12 +83,15 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col">
           <h1>
             <!--@FAT NAVBAR-->
             <span id="fat" id="cocogoose">SEJA BEM-VINDA</span
             ><em><span id="autography"> à mudança que você busca</span></em>
           </h1>
+        </div>
+      </div>
+    </div>
           <p id="p1">
             É sua hora de começar a transformar sua mente,<br />
             se conhecer, sair do piloto automático e encontrar um propósito de
@@ -94,14 +101,12 @@
             <strong><em>SOBREVIVER</em></strong
             >.
           </p>
-        </div>
-      </div>
-    </div>
+  
     <hr />
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col">
           <p id="p2">
             <!--@MDO NAVBAR-->
             <strong id="mdo"><em>"Um degrau por dia"</em></strong> é a forma como deixo a
@@ -112,9 +117,9 @@
       </div>
     </div>
 
-    <div class="container" id="verde">
+    <div class="container-fluid" id="verde">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col">
           <p id="p3">
             TODOS os dias você vai sortear uma ação e cumpri-la.<br />
             A idéia é recomeçar de forma leve a mudança que você tanto busca.
@@ -124,7 +129,7 @@
     </div>
     <div class="container" id="titulo-categorias">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col">
           <h5>Estas ações são baseadas em 4 grupos:<br /></h5>
         </div>
       </div>
@@ -158,42 +163,46 @@
           </button>
         </div>
         <div class="col-md-4">
-          <img id="img-pequena" src="./Img/um-degrau-por-dia.png" alt="" />
+          <img id="img-pequena" src="./Img/um-degrau-por-dia-pp.png" alt="" />
         </div>
       </div>
     </div>
     <hr />
-    <div>
-      <p id="p4">
-        Vamos juntas buscar saúde física e mental, isso é o que nos dá base para
-        VIVER,<br />
-        realizar nossos sonhos e curtir quem amamos.
-      </p>
-      <p id="p5">
-        Vem comigo no meu Instagram
-        <a
-          href="https://instagram.com/laryportugalm?igshid=YmMyMTA2M2Y="
-          class="link"
-          target="_blank"
-          rel="external"
-          >@laryportugalm</a
-        >
-        | Ouça minha playlist
-        <a
-          href="https://open.spotify.com/playlist/2hCAhJ32ctGDnTjgdq3xK7?si=OgFmzCimSKaqq4TTMC1NCA"
-          class="link"
-          target="_blank"
-          rel="external"
-          >"Tenha um bom dia"</a
-        >
-        no Spotify
-      </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <p id="p4">
+            Vamos juntas buscar saúde física e mental, isso é o que nos dá base para
+            VIVER,<br />
+            realizar nossos sonhos e curtir quem amamos.
+          </p>
+          <p id="p5">
+            Vem comigo no meu Instagram
+            <a
+              href="https://instagram.com/laryportugalm?igshid=YmMyMTA2M2Y="
+              class="link"
+              target="_blank"
+              rel="external"
+              >@laryportugalm</a
+            >
+            | Ouça minha playlist
+            <a
+              href="https://open.spotify.com/playlist/2hCAhJ32ctGDnTjgdq3xK7?si=OgFmzCimSKaqq4TTMC1NCA"
+              class="link"
+              target="_blank"
+              rel="external"
+              >"Tenha um bom dia"</a
+            >
+            no Spotify
+          </p>
+        </div>
+      </div>
     </div>
     <hr />
 <!--PÁGINA QUEM SOU EU-->
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col">
           <h1>
             <!--DROPDOWN 1 NAVBAR-->
             <span id="um" id="cocogoose">SEJA BEM-VINDA </span
