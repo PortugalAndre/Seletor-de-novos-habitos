@@ -83,7 +83,6 @@ strong {
 }
 
 hr {
-  width: 1000px;
   border: solid #eeb5eb 1px;
 }
 
@@ -102,7 +101,6 @@ div {
   font-family: 'Montserrat';
   margin-top: 10px;
   border-radius: 50px;
-  width: 800px;
   background-color: #686332;
 }
 
@@ -110,10 +108,9 @@ div {
   font-family: 'Montserrat';
   margin-top: 10px;
   margin-bottom: 30px;
-  width: 800px;
 }
 
-.item-categorias {
+#item-categorias {
   font-size: larger;
 }
 
