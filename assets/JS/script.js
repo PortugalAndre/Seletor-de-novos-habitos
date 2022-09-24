@@ -15,13 +15,13 @@ function handleButtonClick() {
     'Visitar Amigo',
   ];
 
-  const sorteado = [];
+  const habitoSorteado = [];
 
   const index = Math.floor(Math.random() * habitos.length - 1);
   const [habito] = habitos.splice(index, 1);
-  sorteado.push(habito);
+  habitoSorteado.push(habito);
 
-  resultadoSorteio.textContent = sorteado;
+  resultadoSorteio.textContent = habitoSorteado;
 
   //resultadoSorteio.textContent = 'Ler 5 páginos de um livro';
 }
